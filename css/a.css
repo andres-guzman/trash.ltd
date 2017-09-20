@@ -1,0 +1,139 @@
+/*
+    author: andres guzman (andres@camino.bo)
+    date: september, 2017
+*/
+
+/* fonts */
+
+@font-face {
+    font-family: '8bit16';
+    src: url('fonts/8bit16/8bit16-webfont.woff2') format('woff2'),
+         url('fonts/8bit16/8bit16-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apple';
+    src: url('fonts/apple/apple_-webfont.woff2') format('woff2'),
+         url('fonts/apple/apple_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* start */
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #131414;
+    box-sizing: border-box;
+    padding: 15px 0;
+}
+
+main {
+    /*background-color: #f6f7fb;
+    box-shadow: 0 20px 25px 10px rgba(35, 45, 61, 0.25);*/
+    max-width: 901px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid #e7eaef;
+    padding: 60px 115px;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #000000;
+    font: 8px "Apple", sans-serif;
+}
+
+h2 {
+    color: #62656e;
+    font: 15px "8bit16", sans-serif;
+}
+
+h3 {
+    color: #000000;
+    font: 8px "Apple", sans-serif;
+    margin-bottom: 60px;
+}
+
+.section-first {
+    padding: 0 115px;
+    margin-bottom: 60px;
+}
+
+.links {
+    color: #62656e;
+    font: 8px "Apple", sans-serif;
+    list-style-position: outside;
+    margin-bottom: 60px;
+}
+
+.links li {
+    margin-bottom: 8px;
+}
+
+.links li a {
+    color: #ffffff;
+    font: 8px "Apple", sans-serif;
+    text-decoration: none;
+    padding: 4px 0;
+}
+
+.links li a:hover {
+    color: #711fdf;
+}
+
+footer {
+    padding: 60px 115px;
+    border-top: 1px solid #e7eaef;
+    box-sizing: border-box;
+}
